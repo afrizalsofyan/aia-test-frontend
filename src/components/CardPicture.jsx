@@ -19,9 +19,6 @@ const CardPicture = ({ feed }) => {
         </div>
       </div>
       {/* <div dangerouslySetInnerHTML={{ __html: feed?.description }}></div> */}
-      <div className='d-flex justify-content-center'>
-        <Button>Show more</Button>
-      </div>
     </Card>
   )
 }
