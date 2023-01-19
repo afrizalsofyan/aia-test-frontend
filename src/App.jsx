@@ -11,7 +11,7 @@ function App() {
   const [searchResult, setSearchResult] = useState([])
 
   const fetchAPI = async () => {
-    const res = await fetch('http://localhost:3333/feeds')
+    const res = await fetch('https://aia-test-backend-ten.vercel.app/feeds')
     const resBody = await res.json()
     if (resBody?.success) {
       setErrors('')
